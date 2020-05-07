@@ -1,0 +1,131 @@
+body{
+	font-family:"Montserrat";
+}
+#title {
+	background-color: #ff4c68;
+	color: #fff;
+}
+#fluid-container{
+	padding: 3% 15% 7%;
+}
+#navgn{
+	padding:0 0 4.5rem;
+}
+#brand-name{
+	font-family: 'ubuntu',sans-serif;
+	color: #fff;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+#navbar-lists .navbar-item a{
+	color: #fff;
+	padding: 0 18px;
+	font-size: 1.2rem;
+	/*font-family: 'Montserrat-Light';*/
+}
+#title-text{
+	font-family: 'Montserrat-Black', sans-serif;
+	font-size: 3.5rem;
+	font-weight: bold;
+	line-height: 1.5;
+}
+#btns button{
+	margin: 5% 3% 5% 3px;
+}
+#title-image img{
+	width:95%;
+	transform: rotate(25deg);
+	position:absolute;
+	z-index: 1;
+	left: 3%;
+}
+#features{
+	padding: 7% 15% 7% 15%;
+	background-color: #FFF;
+	position: relative;
+	z-index: 2;
+}
+.feature-element{
+	text-align: center;
+	padding: 5%;
+}
+h3{
+	font-weight: bold;
+	font-family: "Montserrat-Bold"
+}
+.feature-element p{
+	font-weight: bold;
+	color: #8f8f8f;
+}
+.icon{
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+.icon:hover{
+	color: #ff4c68;
+}
+#testimonial{
+	background-color: #ef8172;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+.testimonial-carousel{
+	padding: 7% 15%;
+}
+h2{
+	font-family: 'Montserrat-Bold';
+	font-size: 3rem;
+	line-height: 1.5;
+}
+.testimonial-img{
+	border-radius: 100%;
+	margin: 20px;
+	margin-left: 20px;
+}
+#press{
+	background-color: #ef8172;
+	text-align: center;
+}
+#press img{
+	width: 10%;
+	height: 10%;
+	margin: 20px 20px 50px;
+}
+#pricing{
+	padding: 100px;
+	text-align: center;
+}
+.pricing-col{
+	padding: 3% 2%;
+}
+#footnote{
+	background-color: #ff4c68;
+	text-align: center;
+}
+#footnote-text{
+	font-family: 'Montserrat-Black';
+	font-size:3rem;
+	color: #fff;
+	padding-top: 4rem;
+}
+#footnote button{
+	margin:3% 1.5%;
+}
+.fai{
+	margin: 20px 10px;
+}
+#footer{
+	padding: 6% 0% 0% 0%;	
+	background-color: #fff;
+	text-align: center;
+}
+@media (max-width: 995px){
+	#title{
+		text-align: center;
+	}	
+	#title-image img{
+		position: static;
+		transform: rotate(0);
+	}
+}
